@@ -18,8 +18,8 @@ resource botService 'Microsoft.BotService/botServices@2021-03-01' = {
   name: flintstonedev
   properties: {
     displayName: botDisplayName
-    endpoint: 'https://flintstonedev-ahead.azurewebsites.net:3978/api/messages'
-    msaAppId: 7656d656-ba24-48ec-9de0-9f4df113c328
+    endpoint: 'https://flintstonedev.azurewebsites.net:3978/api/messages'
+    msaAppId: '12fe5104-6983-4a36-92a1-3f3fbe7cad7d'
   }
   sku: {
     name: S1
